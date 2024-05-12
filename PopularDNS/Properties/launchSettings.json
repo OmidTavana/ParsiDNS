@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PopularDNS (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "PopularDNS (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

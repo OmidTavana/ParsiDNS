@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="PopularDNS.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PopularDNS"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+
+    mc:Ignorable="d">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Spacing="20" VerticalAlignment="Center">
+        <Button x:Name="btnShecan" Click="myButton_Click" Width="200">شکن</Button>
+        <Button x:Name="btnElectro" Click="myButton_Click"  Width="200">الکترو</Button>
+        <Button x:Name="btnBegzar" Click="myButton_Click"  Width="200">بگذر</Button>
+        <Button x:Name="btn403" Click="myButton_Click"  Width="200">403</Button>
+        <Button x:Name="btnClear" Click="myButton_Click"  Width="200">پاک کردن</Button>
+    </StackPanel>
+</Window>
