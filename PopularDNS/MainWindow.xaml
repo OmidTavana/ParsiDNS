@@ -9,10 +9,12 @@
 
     mc:Ignorable="d">
     <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Spacing="20" VerticalAlignment="Center">
-        <Button x:Name="btnShecan" Click="myButton_Click" Width="200">شکن</Button>
-        <Button x:Name="btnElectro" Click="myButton_Click"  Width="200">الکترو</Button>
-        <Button x:Name="btnBegzar" Click="myButton_Click"  Width="200">بگذر</Button>
-        <Button x:Name="btn403" Click="myButton_Click"  Width="200">403</Button>
-        <Button x:Name="btnClear" Click="myButton_Click"  Width="200">پاک کردن</Button>
+        <TextBlock Text="برنامه را حتما در حالت  RunAsAdministrator اجرا کنید."
+                   TextWrapping="Wrap" TextAlignment="Center" LineHeight="30" Width="200"></TextBlock>
+        <Button x:Name="btnShecan" Click="btnShecan_Click" Width="200">شکن</Button>
+        <Button x:Name="btnElectro" Click="btnElectro_Click"  Width="200">الکترو</Button>
+        <Button x:Name="btnBegzar" Click="btnBegzar_Click"  Width="200">بگذر</Button>
+        <Button x:Name="btn403" Click="btn403_Click"  Width="200">403</Button>
+        <Button x:Name="btnClear" Click="btnClear_Click"  Width="200">پاک کردن</Button>
     </StackPanel>
 </Window>
