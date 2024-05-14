@@ -3,25 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34707.107
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PopularDNS", "PopularDNS\PopularDNS.csproj", "{BB44AA5E-E536-4FCF-9844-B8A44F9BE7F3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParsiDNS_WebApi", "ParsiDNS_WebApi\ParsiDNS_WebApi.csproj", "{169298C1-4B49-4555-814D-7C58E41D3BB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopularDNS", "PopularDNS\PopularDNS.csproj", "{BB44AA5E-E536-4FCF-9844-B8A44F9BE7F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM64 = Debug|ARM64
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
-		Release|Any CPU = Release|Any CPU
 		Release|ARM64 = Release|ARM64
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BB44AA5E-E536-4FCF-9844-B8A44F9BE7F3}.Debug|Any CPU.ActiveCfg = Debug|x64
-		{BB44AA5E-E536-4FCF-9844-B8A44F9BE7F3}.Debug|Any CPU.Build.0 = Debug|x64
-		{BB44AA5E-E536-4FCF-9844-B8A44F9BE7F3}.Debug|Any CPU.Deploy.0 = Debug|x64
 		{BB44AA5E-E536-4FCF-9844-B8A44F9BE7F3}.Debug|ARM64.ActiveCfg = Debug|ARM64
 		{BB44AA5E-E536-4FCF-9844-B8A44F9BE7F3}.Debug|ARM64.Build.0 = Debug|ARM64
 		{BB44AA5E-E536-4FCF-9844-B8A44F9BE7F3}.Debug|ARM64.Deploy.0 = Debug|ARM64
@@ -31,9 +24,6 @@ Global
 		{BB44AA5E-E536-4FCF-9844-B8A44F9BE7F3}.Debug|x86.ActiveCfg = Debug|x86
 		{BB44AA5E-E536-4FCF-9844-B8A44F9BE7F3}.Debug|x86.Build.0 = Debug|x86
 		{BB44AA5E-E536-4FCF-9844-B8A44F9BE7F3}.Debug|x86.Deploy.0 = Debug|x86
-		{BB44AA5E-E536-4FCF-9844-B8A44F9BE7F3}.Release|Any CPU.ActiveCfg = Release|x64
-		{BB44AA5E-E536-4FCF-9844-B8A44F9BE7F3}.Release|Any CPU.Build.0 = Release|x64
-		{BB44AA5E-E536-4FCF-9844-B8A44F9BE7F3}.Release|Any CPU.Deploy.0 = Release|x64
 		{BB44AA5E-E536-4FCF-9844-B8A44F9BE7F3}.Release|ARM64.ActiveCfg = Release|ARM64
 		{BB44AA5E-E536-4FCF-9844-B8A44F9BE7F3}.Release|ARM64.Build.0 = Release|ARM64
 		{BB44AA5E-E536-4FCF-9844-B8A44F9BE7F3}.Release|ARM64.Deploy.0 = Release|ARM64
@@ -43,22 +33,6 @@ Global
 		{BB44AA5E-E536-4FCF-9844-B8A44F9BE7F3}.Release|x86.ActiveCfg = Release|x86
 		{BB44AA5E-E536-4FCF-9844-B8A44F9BE7F3}.Release|x86.Build.0 = Release|x86
 		{BB44AA5E-E536-4FCF-9844-B8A44F9BE7F3}.Release|x86.Deploy.0 = Release|x86
-		{169298C1-4B49-4555-814D-7C58E41D3BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{169298C1-4B49-4555-814D-7C58E41D3BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{169298C1-4B49-4555-814D-7C58E41D3BB6}.Debug|ARM64.ActiveCfg = Debug|Any CPU
-		{169298C1-4B49-4555-814D-7C58E41D3BB6}.Debug|ARM64.Build.0 = Debug|Any CPU
-		{169298C1-4B49-4555-814D-7C58E41D3BB6}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{169298C1-4B49-4555-814D-7C58E41D3BB6}.Debug|x64.Build.0 = Debug|Any CPU
-		{169298C1-4B49-4555-814D-7C58E41D3BB6}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{169298C1-4B49-4555-814D-7C58E41D3BB6}.Debug|x86.Build.0 = Debug|Any CPU
-		{169298C1-4B49-4555-814D-7C58E41D3BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{169298C1-4B49-4555-814D-7C58E41D3BB6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{169298C1-4B49-4555-814D-7C58E41D3BB6}.Release|ARM64.ActiveCfg = Release|Any CPU
-		{169298C1-4B49-4555-814D-7C58E41D3BB6}.Release|ARM64.Build.0 = Release|Any CPU
-		{169298C1-4B49-4555-814D-7C58E41D3BB6}.Release|x64.ActiveCfg = Release|Any CPU
-		{169298C1-4B49-4555-814D-7C58E41D3BB6}.Release|x64.Build.0 = Release|Any CPU
-		{169298C1-4B49-4555-814D-7C58E41D3BB6}.Release|x86.ActiveCfg = Release|Any CPU
-		{169298C1-4B49-4555-814D-7C58E41D3BB6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
