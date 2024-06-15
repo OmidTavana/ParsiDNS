@@ -1,6 +1,0 @@
-@ParsiDNS_WebApi_HostAddress = http://localhost:5009
-
-GET {{ParsiDNS_WebApi_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

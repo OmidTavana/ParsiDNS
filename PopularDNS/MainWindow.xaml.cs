@@ -9,6 +9,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Management;
+using System.Net.NetworkInformation;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
@@ -31,9 +33,33 @@ namespace PopularDNS
 
 		}
 
-		private void myButton_Click(object sender, RoutedEventArgs e)
+		private void btnShecan_Click(object sender, RoutedEventArgs e)
 		{
-			btnShecan.Content = "Clicked";
+		NetworkHelper.SetDNS("178.22.122.100", "185.51.200.2");
+
 		}
-	}
+
+		private void btnElectro_Click(object sender, RoutedEventArgs e)
+		{
+
+			NetworkHelper.SetDNS("78.157.42.100", "78.157.42.101");
+
+		}
+
+		private void btnBegzar_Click(object sender, RoutedEventArgs e)
+		{
+			NetworkHelper.SetDNS("185.55.226.26", "185.55.225.25");
+
+		}
+
+		private void btn403_Click(object sender, RoutedEventArgs e)
+		{
+			NetworkHelper.SetDNS("10.202.10.202", "10.202.10.102");
+		}
+
+		private void btnClear_Click(object sender, RoutedEventArgs e)
+		{
+			NetworkHelper.UnsetDNS();
+		}
+    }
 }
